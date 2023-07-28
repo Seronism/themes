@@ -1,8 +1,7 @@
-/* Imports */
+
 @import "https://monstrousdev.github.io/themes/phoenix-bundle/base.css";
 
 
-/* Variables */
 
 :root {
   --theme-name: "Reborn";
@@ -15,7 +14,7 @@
   --background-darkness: 0.75
 }
 
-  /* Dark Mode */
+
   .appMount-2yBXZl {
     --primary-color: rgba(0,0,0,var(--background-darkness));
   }
@@ -27,7 +26,7 @@
     --quaternary-color: rgba(0,0,0,0.7);
   }
 
-  /* Light Mode */
+ 
   .theme-light {
     --primary-color: rgba(0,0,0,0.55);
     --secondary-color: rgba(0,0,0,0.4);
@@ -35,29 +34,7 @@
     --quaternary-color: rgba(0,0,0,0.5);
   }
 
-/* Table of Contents 
- ============== STATIC ===============
-1. Backgrund
-  1.a. Main Background
-  1.b. Transparency
 
-2. User Settings
-
-3. Chat
-
-4. Popouts and Modals
-
-5. @Media Edits
-
-6. Misc
-*/
-
-
-
-
-
-/* 1. Background */
-  /* 1.a. Main Background */
   .appMount-2yBXZl::before {
     position: absolute;
     content: " ";
@@ -75,7 +52,7 @@
     background-color: var(--primary-color);
   }
   
-    /* 1.b. Transparency */
+
   .layer-86YKbF, 
   .layers-OrUESM,
   .container-1eFtFS,
@@ -175,7 +152,7 @@
   }
   
   
-  /* 2. User Settings */
+
   .standardSidebarView-E9Pc3j .sidebarRegion-1VBisG .sidebarRegionScroller-FXiQOh,
   .uploadModal-2ie9O_ .footer-VCsJQY,
   .uploadModal-2ie9O_ .inner-rBP-MS .channelTextAreaUpload-30SRDh .inner-zqa7da {
@@ -184,7 +161,7 @@
   
   
   
-  /* 3. Chat */
+
   #app-mount .iconMask-2fMR98,
   .preview-rua1rr {
     background: linear-gradient(var(--quaternary-color), var(--quaternary-color)), linear-gradient(var(--primary-color), var(--primary-color)), var(--background-image) center/cover no-repeat fixed!important;
@@ -211,7 +188,7 @@
     background-color: var(--tertiary-color) !important;
   }
 
-  /* 4. Popouts & Modals */
+
   .colorPickerCustom-1swUKF {
     border-color: var(--quaternary-color) !important;
   }
@@ -454,7 +431,7 @@
     background: linear-gradient(var(--primary-color), var(--primary-color)),var(--background-image) center/cover no-repeat fixed !important;
   }
   
-  /* 5. @Media Edits */
+
   @media only screen and (max-width: 915px) {
   
     .members-3WRCEx:hover {
@@ -462,7 +439,7 @@
     }
   }
 
-/* 6. Misc */
+
 #ghostping-panel {
   background-image: linear-gradient(var(--primary-color), var(--primary-color)), var(--background-image) !important;
   background-size: cover, cover;
@@ -478,7 +455,7 @@
   opacity: .9;
 }
 
-/* custom background fix */
+
 
 .userPopout-2j1gM4 .wrapper-1VLyxH * {
   z-index: 1;
